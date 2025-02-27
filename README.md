@@ -16,10 +16,10 @@ A utility function that splits an array into subarrays (chunks) of a specified m
 
 ## Installation
 
-Simply include the `chunkArray` function in your project. If you're using ES modules:
-
-```ts
-import { chunkArray } from 'just-chunk-array';
+```shell
+yarn add just-chunk-array
+# or
+npm i just-chunk-array
 ```
 
 ## Usage
@@ -27,6 +27,8 @@ import { chunkArray } from 'just-chunk-array';
 ### Basic Example
 
 ```ts
+import { chunkArray } from 'just-chunk-array';
+
 const numbers = [1, 2, 3, 4, 5];
 const maxLength = 2;
 const result = chunkArray(numbers, maxLength);
@@ -36,6 +38,8 @@ const result = chunkArray(numbers, maxLength);
 ### Handling Invalid Input
 
 ```ts
+import { chunkArray } from 'just-chunk-array';
+
 try {
   chunkArray([1, 2, 3], 0);
 } catch (error) {

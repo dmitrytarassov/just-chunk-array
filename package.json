@@ -5,6 +5,7 @@
   "main": "index.js",
   "repository": "https://github.com/dmitrytarassov/just-chunk-array",
   "author": "Dmitriy Tarasov <meowbl@icloud.com>",
+  "keywords": ["array", "arrays", "chunk", "chunk-array", "split", "array-split", "slice"],
   "license": "MIT",
   "scripts": {
     "build": "tsup",
